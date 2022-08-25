@@ -1,0 +1,56 @@
+.fruits{
+  display: flex;
+}
+
+.graphicDesign, .photography{
+  position: relative;
+}
+
+.fruitsText{
+  position: absolute;
+  bottom: 60px;
+  height: 100px;
+  text-align: center;
+  padding-inline: 20%;
+}
+
+.fruitsText h3{
+
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.graphicDesign .fruitsText{
+  color: var(--darkdesaturatedCyan);
+}
+
+.photography .fruitsText{
+  color: var(--darkblue);
+}
+
+.fruitsText p{
+  font-size: 13px;
+}
+
+
+.gdImg_mobile, .pgImg_mobile{
+  display: none;
+}
+
+.gdImg_desktop, .pgImg_desktop{
+  width: 100%;
+}
+
+@media (max-width:785px) {
+  .fruits{
+    flex-direction: column;
+  }
+  .gdImg_mobile, .pgImg_mobile{
+    display: block;
+    width: 100%;
+  }
+  
+  .gdImg_desktop, .pgImg_desktop{
+    display: none;
+  } 
+}

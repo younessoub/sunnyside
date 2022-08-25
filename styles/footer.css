@@ -1,0 +1,35 @@
+footer{
+  text-align: center;
+  background-color: hsl(168, 34%, 61%);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer h2{
+  color: var(--darkdesaturatedCyan );
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.footerLinks{
+  margin-bottom: 60px;
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: var(--darkdesaturatedCyan);
+  padding-inline: 20px;
+}
+
+.footerLinks a:hover{
+  color: white;
+}
+
+.footerIcons a{
+  padding-left: 10px;
+}
+
+.footerIcons a:hover svg path{
+  fill: white;
+}
+
